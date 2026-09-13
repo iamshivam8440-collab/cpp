@@ -25,6 +25,6 @@ int main()
 {
 	example e1;
 	e1.setData(2,3);
-	e2.Display();
+	e1.Display();
 	return 0;
 }

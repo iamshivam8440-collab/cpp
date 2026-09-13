@@ -28,6 +28,6 @@ int main()
 	cout<<"----------------------------\n";
 	s1.getdata();
 	int s=s1.logic();
-	cout<<s;
+	cout<<"Addition is:"<<s;
 	return 0;
 }

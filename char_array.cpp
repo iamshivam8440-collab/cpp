@@ -14,7 +14,7 @@ int main()
 	{
 		cout<<"ch["<<i<<"]="<<ch[i]<<endl;
 	}
-	cout<<"Direct:"<<endl;
+	cout<<"Direct:";
 	cout<<ch<<endl;
 	return 0;
 }
