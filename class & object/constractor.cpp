@@ -1,3 +1,4 @@
+// Default constractor--> No parameter pass 
 #include<iostream>
 using namespace std;
 class Exam{
