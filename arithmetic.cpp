@@ -3,7 +3,7 @@ using namespace std;
 int add(int x, int y);
 int sub(int x, int y);
 int mul(int x, int y);
-int div(int x, int y);
+int Div(int x, int y);
 int add(int x, int y)
 {
   int sum = x + y;
@@ -19,7 +19,7 @@ int mul(int x, int y)
   int muL = x * y;
   return muL;
 }
-int div(int x, int y)
+int Div(int x, int y)
 {
   if (y == 0)
   {
@@ -41,7 +41,7 @@ int main()
   cout << "Addition is:" << add(a, b) << endl;
   cout << "Subtraction is:" << sub(a, b) << endl;
   cout << "Multiplication is:" << mul(a, b) << endl;
-  result = div(a, b);
+  result = Div(a, b);
   if (result == -1)
   {
     cout << "Division is not perform:" << endl;
