@@ -1,11 +1,11 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
 	int i;
-	for(;;) //infinite loop
+	for (;;) // infinite loop
 	{
-		cout<<"Hello World!"<<endl;
+		cout << "Hello World!" << endl;
 	}
 	return 0;
 }

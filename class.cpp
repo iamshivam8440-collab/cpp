@@ -1,18 +1,20 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-class car{
+class car
+{
 	int tyre;
 	int steering;
 	int brake;
-	public:
+
+public:
 	void fitTyre()
 	{
-		tyre=55;
-		cout<<"Tyre fit successfully:"<<tyre;
+		tyre = 55;
+		cout << "Tyre fit successfully:" << tyre;
 	}
 	void setBrake()
 	{
-		cout<<"Brake set successfully:";
+		cout << "Brake set successfully:";
 	}
 };
 int main()
@@ -22,4 +24,3 @@ int main()
 	c1.fitTyre();
 	return 0;
 }
-

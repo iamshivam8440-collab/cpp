@@ -1,19 +1,21 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-class Demo{
+class Demo
+{
 	int x;
 	static int y;
-	public:
+
+public:
 	static void setData()
 	{
-	  y=100;	
+		y = 100;
 	}
 	static void display()
 	{
-		cout<<y;
+		cout << y;
 	}
 };
-int Demo::y;//y=20
+int Demo::y; // y=20
 int main()
 {
 	Demo::setData();
