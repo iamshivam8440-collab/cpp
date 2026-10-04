@@ -11,7 +11,12 @@ public:
 		cout << "Constructor" << endl; // call karna nahi padta hai
 		x = p;
 		y = q;
-		cout << x << y;
+		cout << x << y << endl;
+	}
+	// Distractor
+	~Demo()
+	{
+		cout << "Hello World!!";
 	}
 };
 int main()
